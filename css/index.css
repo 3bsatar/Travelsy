@@ -1,4 +1,8 @@
 /* Top blue bar */
+.top-header {
+  background-color: #4a90e2;
+}
+
 .top-bar {
   background: #4a90e2;
   color: #fff;
@@ -238,5 +242,32 @@
 }
 
 .booking-form-info {
-  padding-right: 40px;
+  background-color: #4a90e2; /* Changed to primary blue */
+  color: white;
+  padding: 40px;
+  min-height: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.booking-form-info img {
+  position: absolute;
+  bottom: -40px; /* Adjusted to compensate for padding */
+  left: 0;
+  width: 100%;
+  height: calc(50% + 40px); /* Adjusted height to cover padding */
+  object-fit: cover;
+  border-radius: 0 0 15px 15px;
+}
+
+.booking-form-info h2, .booking-form-info p {
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 2;
+}
+
+/* Booking Section Background - removed background-color */
+.booking-section {
+  /* No background color here */
 }
