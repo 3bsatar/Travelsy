@@ -1,167 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us - Travelsy</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Travelsy</title>
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-  />
-  <link rel="stylesheet" href="./css/index.css" />
-</head>
-<body>
-  <div class="top-header d-flex flex-wrap">
-    <div class="top-bar flex-grow-1 text-center text-lg-start px-3">
-      <a href="mailto:support@travelsy.com" class="ms-2">
-        <i class="fa-solid fa-envelope"></i> support@travelsy.com
-      </a>
-    </div>
-    <div class="black-bar flex-grow-1 text-center text-lg-end px-3">
-      <!-- <a href="#"><i class="fa-regular fa-user"></i> Login / Register</a> -->
-      <a href="https://www.facebook.com/share/1AtBywFTQe/"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-    </div>
-  </div>
-
-  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-    <div class="container">
-      <a class="navbar-brand fs-2 fw-bold" href="./index.html">
-        <span class="text-primary">Travel</span>sy
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active text-primary" href="./About.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="./city.html">Cities</a></li>
-        </ul>
-        <div class="d-flex ms-3 align-items-center">
-          <a href="./About.html" class="btn btn-primary btn-contact">
-            Contact Us <i class="fa-solid fa-phone"></i>
-          </a>
-        </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <div class="top-header d-flex flex-wrap">
+      <div class="top-bar flex-grow-1 text-center text-lg-start px-3">
+        <a href="mailto:support@travelsy.com" class="ms-2">
+          <i class="fa-solid fa-envelope"></i> support@travelsy.com
+        </a>
+      </div>
+      <div class="black-bar flex-grow-1 text-center text-lg-end px-3">
+        <!-- <a href="#"><i class="fa-regular fa-user"></i> Login / Register</a> -->
+        <a href="https://www.facebook.com/share/1AtBywFTQe/"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
       </div>
     </div>
-  </nav>
 
-  <div class="page-content">
-    <section class="about-section py-5 bg-light">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
       <div class="container">
-        <div class="text-center mb-5">
-          <p class="section-subtitle">Our Story</p>
-          <h2 class="fw-bold display-6">Meet the <span class="text-primary">Founders</span></h2>
-          <p class="text-muted lead">The visionaries behind Travelsy</p>
+        <a class="navbar-brand fs-2 fw-bold" href="./index.html">
+          <span class="text-primary">Travel</span>sy
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary" href="./About.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./city.html">Cities</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-3 align-items-center">
+            <a href="./About.html" class="btn btn-primary btn-contact">
+              Contact Us <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
         </div>
+      </div>
+    </nav>
 
-        <div class="row g-4">
-          <div class="col-md-6">
-            <div class="card shadow border-0 h-100 text-center p-4 rounded-4">
-              <img src="images/Mahmoud.jpeg" class="rounded-circle mx-auto mb-3" alt="Founder Me" width="150" height="150">
-              <h4 class="fw-bold">Mahmoud Mesalem</h4>
-              <p class="text-primary mb-3 fw-semibold">Co-Founder & CEO</p>
-              <p class="text-muted">
-                Passionate about creating seamless travel experiences, Mahmoud leads Travelsy with innovation and a love for exploration. 
-                His vision is to connect travelers with unforgettable destinations in the easiest way possible.
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="text-primary me-3 fs-4"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/share/1AtBywFTQe/" class="text-primary me-3 fs-4"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/3bsatar_/" class="text-primary fs-4"><i class="fab fa-instagram"></i></a>
+    <div class="page-content">
+      <section class="about-section py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5">
+            <p class="section-subtitle">Our Story</p>
+            <h2 class="fw-bold display-6">
+              Meet the <span class="text-primary">Founders</span>
+            </h2>
+            <p class="text-muted lead">The visionaries behind Travelsy</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card shadow border-0 h-100 text-center p-4 rounded-4">
+                <img
+                  src="images/Mahmoud.jpeg"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Founder Me"
+                  width="150"
+                  height="150"
+                />
+                <h4 class="fw-bold">Mahmoud Mesalem</h4>
+                <p class="text-primary mb-3 fw-semibold">Co-Founder & CEO</p>
+                <p class="text-muted">
+                  Passionate about creating seamless travel experiences, Mahmoud
+                  leads Travelsy with innovation and a love for exploration. His
+                  vision is to connect travelers with unforgettable destinations
+                  in the easiest way possible.
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="text-primary me-3 fs-4"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/share/1AtBywFTQe/"
+                    class="text-primary me-3 fs-4"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/3bsatar_/"
+                    class="text-primary fs-4"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card shadow border-0 h-100 text-center p-4 rounded-4">
+                <img
+                  src="images/Kareem.PNG"
+                  class="rounded-circle mx-auto mb-3"
+                  alt="Founder Kareem"
+                  width="150"
+                  height="150"
+                />
+                <h4 class="fw-bold">Kareem Abdo</h4>
+                <p class="text-primary mb-3 fw-semibold">Co-Founder & CTO</p>
+                <p class="text-muted">
+                  Kareem is the tech brain behind Travelsy. With a strong
+                  background in software engineering, she ensures our platform
+                  runs smoothly, delivering the best experience for every
+                  traveler.
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="text-primary me-3 fs-4"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="#" class="text-primary me-3 fs-4"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="#" class="text-primary fs-4"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6">
-            <div class="card shadow border-0 h-100 text-center p-4 rounded-4">
-              <img src="images/Kareem.PNG" class="rounded-circle mx-auto mb-3" alt="Founder Kareem" width="150" height="150">
-              <h4 class="fw-bold">Kareem Abdo</h4>
-              <p class="text-primary mb-3 fw-semibold">Co-Founder & CTO</p>
-              <p class="text-muted">
-                Kareem is the tech brain behind Travelsy. With a strong background in software engineering,
-                she ensures our platform runs smoothly, delivering the best experience for every traveler.
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="text-primary me-3 fs-4"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="text-primary me-3 fs-4"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="text-primary fs-4"><i class="fab fa-instagram"></i></a>
+          <div class="row mt-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <div class="about-content">
+                <h3 class="fw-bold mb-4">Our Mission</h3>
+                <p class="text-muted lead">
+                  At Travelsy, we believe that travel should be accessible,
+                  enjoyable, and memorable for everyone. Our mission is to
+                  simplify the booking process while providing exceptional value
+                  and service to our customers.
+                </p>
+                <div class="row g-4 mt-4">
+                  <div class="col-md-4">
+                    <div class="text-center">
+                      <div class="service-icon mx-auto mb-3">
+                        <i class="fa-solid fa-globe"></i>
+                      </div>
+                      <h5 class="fw-bold">Global Reach</h5>
+                      <p class="text-muted small">
+                        Connecting you to destinations worldwide
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="text-center">
+                      <div class="service-icon mx-auto mb-3">
+                        <i class="fa-solid fa-heart"></i>
+                      </div>
+                      <h5 class="fw-bold">Customer First</h5>
+                      <p class="text-muted small">
+                        Your satisfaction is our top priority
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="text-center">
+                      <div class="service-icon mx-auto mb-3">
+                        <i class="fa-solid fa-shield-alt"></i>
+                      </div>
+                      <h5 class="fw-bold">Trusted & Secure</h5>
+                      <p class="text-muted small">
+                        Safe and secure booking platform
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+    </div>
 
-        <div class="row mt-5">
-          <div class="col-lg-8 mx-auto text-center">
-            <div class="about-content">
-              <h3 class="fw-bold mb-4">Our Mission</h3>
-              <p class="text-muted lead">
-                At Travelsy, we believe that travel should be accessible, enjoyable, and memorable for everyone. 
-                Our mission is to simplify the booking process while providing exceptional value and service to our customers.
-              </p>
-              <div class="row g-4 mt-4">
-                <div class="col-md-4">
-                  <div class="text-center">
-                    <div class="service-icon mx-auto mb-3">
-                      <i class="fa-solid fa-globe"></i>
-                    </div>
-                    <h5 class="fw-bold">Global Reach</h5>
-                    <p class="text-muted small">Connecting you to destinations worldwide</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="text-center">
-                    <div class="service-icon mx-auto mb-3">
-                      <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <h5 class="fw-bold">Customer First</h5>
-                    <p class="text-muted small">Your satisfaction is our top priority</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="text-center">
-                    <div class="service-icon mx-auto mb-3">
-                      <i class="fa-solid fa-shield-alt"></i>
-                    </div>
-                    <h5 class="fw-bold">Trusted & Secure</h5>
-                    <p class="text-muted small">Safe and secure booking platform</p>
-                  </div>
-                </div>
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h3 class="fw-bold">Stay Updated</h3>
+            <p class="mb-0">
+              Subscribe to our newsletter for exclusive deals and travel tips
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <button class="btn btn-light" type="submit">Subscribe</button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
     </section>
-  </div>
 
-  <!-- Newsletter Section -->
-  <section class="newsletter-section py-5 bg-primary text-white">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <h3 class="fw-bold">Stay Updated</h3>
-          <p class="mb-0">Subscribe to our newsletter for exclusive deals and travel tips</p>
-        </div>
-        <div class="col-lg-6">
-          <form class="newsletter-form">
-            <div class="input-group">
-              <input type="email" class="form-control" placeholder="Enter your email">
-              <button class="btn btn-light" type="submit">Subscribe</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
