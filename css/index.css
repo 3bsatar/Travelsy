@@ -1,11 +1,9 @@
-/* Body Layout */
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Page Content Flex Grow */
 .page-content {
   flex-grow: 1;
   display: flex;
@@ -16,7 +14,6 @@ body {
   flex-grow: 1;
 }
 
-/* Top blue bar */
 .top-bar {
   background: #4a90e2;
   color: #fff;
@@ -29,7 +26,6 @@ body {
   text-decoration: none;
 }
 
-/* Black bar */
 .black-bar {
   background: #000;
   color: #fff;
@@ -48,7 +44,6 @@ body {
   color: #4a90e2;
 }
 
-/* Navbar */
 .navbar-nav .nav-link {
   margin-left: 15px;
   font-weight: 500;
@@ -67,7 +62,6 @@ body {
   border-radius: 50%;
 }
 
-/* Contact button */
 .btn-contact {
   border-radius: 25px;
   padding: 6px 18px;
@@ -78,7 +72,6 @@ body {
   background-color: #357abd;
 }
 
-/* Search icon */
 .search-icon {
   border: 1px solid #4a90e2;
   border-radius: 50%;
@@ -93,7 +86,6 @@ body {
   color: #fff;
 }
 
-/* Hero */
 .hero {
   background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(53, 122, 189, 0.05) 50%, rgba(255, 255, 255, 0.1) 100%), 
               url('../images/wave-haikei.svg') no-repeat center center;
@@ -102,7 +94,6 @@ body {
   overflow: hidden;
 }
 
-/* Professional gradient overlay */
 .hero::before {
   content: "";
   position: absolute;
@@ -120,7 +111,6 @@ body {
   z-index: 0;
 }
 
-/* Animated gradient overlay for extra depth */
 .hero::after {
   content: "";
   position: absolute;
@@ -153,14 +143,12 @@ body {
   z-index: 1;
 }
 
-/* Tagline */
 .hero .tagline {
   font-family: 'Dancing Script', cursive;
   font-size: 22px;
   color: #666;
 }
 
-/* Image structure */
 .image-structure {
   position: relative;
 }
@@ -253,7 +241,6 @@ body {
   font-size: 18px;
 }
 
-/* Join Now circle */
 .join-now {
   position: absolute;
   right: 43%;
@@ -274,7 +261,6 @@ body {
   position: absolute;
 }
 
-/* Rotating text */
 .circle-text {
   position: absolute;
   font-size: 13px;
@@ -294,7 +280,6 @@ body {
   }
 }
 
-/* Section Subtitle */
 .section-subtitle {
   font-size: 14px;
   color: #4a90e2;
@@ -304,7 +289,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* Featured Destinations */
 .featured-destinations {
   background: #f8f9fa;
 }
@@ -426,7 +410,6 @@ body {
   color: #333;
 }
 
-/* Testimonials Section */
 .testimonials-section {
   background: #fff;
 }
@@ -482,7 +465,6 @@ body {
   font-size: 14px;
 }
 
-/* Video Section */
 .video-section {
   background: #f8f9fa;
 }
@@ -503,7 +485,6 @@ body {
   border-radius: 20px;
 }
 
-/* Newsletter Section */
 .newsletter-section {
   background: linear-gradient(135deg, #4a90e2, #357abd);
 }
@@ -527,7 +508,6 @@ body {
   border: none;
 }
 
-/* Footer */
 .footer {
   background: #1a1a1a !important;
   margin-top: auto;
@@ -570,7 +550,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* Newsletter Section in Footer */
 .footer .newsletter-section {
   background: linear-gradient(135deg, #4a90e2, #357abd) !important;
 }
@@ -594,7 +573,6 @@ body {
   border: none;
 }
 
-/* Footer responsive */
 @media (max-width: 768px) {
   .footer .newsletter-form .input-group {
     margin-top: 20px;
@@ -615,7 +593,6 @@ body {
   }
 }
 
-/* Hotels Section */
 .hotels-section {
   background-color: #f4f8ff;
 }
@@ -633,7 +610,6 @@ body {
   color: #000;
 }
 
-/* Hotel Card */
 .hotel-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -692,7 +668,6 @@ body {
   font-weight: 600;
 }
 
-/* Booking Form Container */
 .booking-form-container {
   background: #fff;
   border-radius: 20px;
@@ -704,7 +679,6 @@ body {
   padding-right: 40px;
 }
 
-/* Booking Form Card */
 .booking-form-card {
   background: #f8f9fa;
   border-radius: 15px;
@@ -712,7 +686,6 @@ body {
   border: 1px solid #e9ecef;
 }
 
-/* Feature Items */
 .feature-item {
   transition: transform 0.2s ease;
 }
@@ -737,7 +710,6 @@ body {
   font-size: 18px;
 }
 
-/* Booking Summary */
 .booking-summary {
   border: 2px solid #4a90e2;
   background: #f8f9ff !important;
@@ -747,7 +719,6 @@ body {
   color: #4a90e2;
 }
 
-/* Form Select Styling */
 .form-select {
   border: 2px solid #e9ecef;
   border-radius: 12px;
@@ -761,7 +732,6 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
 }
 
-/* City Cards */
 .city-card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -810,7 +780,6 @@ body {
   backdrop-filter: blur(10px);
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
   .booking-form-info {
     padding-right: 20px;
@@ -1094,7 +1063,6 @@ body {
   }
 }
 
-/* Landscape Mobile */
 @media (max-width: 768px) and (orientation: landscape) {
   .hero {
     padding: 30px 0;
