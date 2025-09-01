@@ -1130,3 +1130,11 @@ body {
   font-size: 6rem;
   color: #28a745;
 }
+
+.social-image-map {
+  background-color: white;
+  width: 30%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
