@@ -1115,3 +1115,18 @@ body {
   height:70px;
 
 }
+
+/* Thank You Section */
+.thank-you-section {
+  background-color: #f4f8ff;
+}
+
+.thank-you-card {
+  background: #fff;
+  border-radius: 20px;
+}
+
+.thank-you-icon {
+  font-size: 6rem;
+  color: #28a745;
+}
