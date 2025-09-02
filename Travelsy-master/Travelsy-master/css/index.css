@@ -1,0 +1,232 @@
+/* Index/Home Page Specific Styles */
+@import url('./base.css');
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(53, 122, 189, 0.05) 50%, rgba(255, 255, 255, 0.1) 100%), 
+              url('../images/wave-haikei.svg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+.tagline {
+  color: #4a90e2;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Image Structure */
+.image-structure {
+  position: relative;
+  z-index: 2;
+}
+
+.img-vertical {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-horizontal {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.clickable-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.clickable-image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white;
+}
+
+.social-links-overlay {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-link {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #4a90e2;
+}
+
+/* Join Now Circle */
+.join-now {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  z-index: 3;
+}
+
+.circle-text {
+  background: #4a90e2;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Featured Destinations */
+.featured-destinations {
+  background: #f8f9fa;
+}
+
+.destination-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.destination-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.destination-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.destination-card:hover .destination-image img {
+  transform: scale(1.1);
+}
+
+.destination-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.destination-card:hover .destination-overlay {
+  opacity: 1;
+}
+
+.destination-content {
+  padding: 20px;
+}
+
+.destination-content h5 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.destination-stats {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.destination-stats span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.destination-stats i {
+  color: #4a90e2;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .img-vertical {
+    width: 150px;
+    height: 180px;
+  }
+  
+  .img-horizontal {
+    width: 300px;
+    height: 150px;
+  }
+  
+  .join-now {
+    bottom: -10px;
+    right: 10px;
+  }
+  
+  .circle-text {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
