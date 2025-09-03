@@ -1,4 +1,3 @@
-/* Base CSS - Common styles for all pages */
 body {
   min-height: 100vh;
   display: flex;
@@ -15,7 +14,6 @@ body {
   flex-grow: 1;
 }
 
-/* Top Header Styles */
 .top-header {
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +53,7 @@ body {
   color: #4a90e2;
 }
 
-/* Navigation Styles */
+
 .navbar-nav .nav-link {
   margin-left: 15px;
   font-weight: 500;
@@ -84,7 +82,6 @@ body {
   background-color: #357abd;
 }
 
-/* Utility Classes */
 .section-subtitle {
   color: #4a90e2;
   font-weight: 600;
@@ -93,7 +90,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* Responsive Design */
 @media (min-width: 992px) {
   .top-bar {
     text-align: left;
@@ -105,7 +101,6 @@ body {
 } 
 
 
-/* Newsletter Section */
 .newsletter-section {
   background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
 }

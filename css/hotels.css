@@ -1,7 +1,5 @@
-/* Hotels Page Specific Styles */
 @import url('./base.css');
 
-/* Hotels Section */
 .hotels-section {
   background: linear-gradient(135deg, #f4f8ff 0%, #e8f4fd 100%);
   padding: 60px 0;
@@ -21,7 +19,6 @@
   font-weight: 700;
 }
 
-/* Hotel Cards */
 .hotel-card {
   background: white;
   border-radius: 20px;
@@ -82,7 +79,6 @@
   margin-bottom: 1rem;
 }
 
-/* Hotel Features */
 .hotel-features {
   display: flex;
   align-items: center;
@@ -105,7 +101,6 @@
   margin-left: 1rem;
 }
 
-/* Hotel Price and Booking */
 .hotel-price {
   display: flex;
   justify-content: space-between;
@@ -148,71 +143,14 @@
   box-shadow: 0 6px 20px rgba(74, 144, 226, 0.4);
 }
 
-/* Hotel Search and Filters */
-.hotel-filters {
-  background: white;
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  margin-bottom: 3rem;
-}
 
-.filter-row {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  align-items: end;
-}
 
-.filter-group {
-  flex: 1;
-  min-width: 200px;
-}
-
-.filter-group label {
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 0.5rem;
-  display: block;
-}
-
-.filter-group .form-control,
-.filter-group .form-select {
-  border: 2px solid #e9ecef;
-  border-radius: 12px;
-  padding: 0.75rem 1rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.filter-group .form-control:focus,
-.filter-group .form-select:focus {
-  border-color: #4a90e2;
-  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
-}
-
-.filter-btn {
-  background: #4a90e2;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 12px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.filter-btn:hover {
-  background: #357abd;
-  transform: translateY(-2px);
-}
-
-/* Hotel Grid */
 .hotel-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-/* Hotel Categories */
 .hotel-categories {
   margin-bottom: 2rem;
 }
@@ -244,7 +182,6 @@
   transform: translateY(-2px);
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
   .hotel-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

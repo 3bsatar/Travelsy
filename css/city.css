@@ -1,4 +1,3 @@
-
 @import url('./base.css');
 
 .cities-section {
@@ -144,6 +143,7 @@
   font-size: 1.1rem;
 }
 
+
 .city-categories {
   margin-bottom: 3rem;
 }
@@ -174,18 +174,19 @@
   transform: translateY(-2px);
 }
 
-/* .city-search {
+
+.city-search {
   max-width: 500px;
   margin: 0 auto 3rem;
-} */
+}
 
-/* .city-search .input-group {
+.city-search .input-group {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
   overflow: hidden;
-} */
+}
 
-/* .city-search .form-control {
+.city-search .form-control {
   border: none;
   padding: 1rem 1.5rem;
   font-size: 1rem;
@@ -201,9 +202,9 @@
 
 .city-search .btn:hover {
   background: #357abd;
-} */
+}
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
   .featured-city {
     grid-column: span 1;

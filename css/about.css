@@ -1,7 +1,6 @@
-/* About Page Specific Styles */
 @import url('./base.css');
 
-/* About Section */
+
 .about-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
@@ -24,7 +23,7 @@
   font-size: 1.1rem;
 }
 
-/* Founder Cards */
+
 .founder-card {
   background: white;
   border-radius: 20px;
@@ -75,7 +74,7 @@
   transform: translateY(-2px);
 }
 
-/* Team Values Section */
+
 .team-values {
   background: white;
   border-radius: 20px;
@@ -121,7 +120,7 @@
   line-height: 1.6;
 }
 
-/* Mission Statement */
+
 .mission-statement {
   background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
   color: white;
@@ -142,7 +141,7 @@
   opacity: 0.9;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .about-section {
     padding: 40px 0;

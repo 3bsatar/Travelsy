@@ -1,7 +1,5 @@
-/* Payment Page Specific Styles */
 @import url('./base.css');
 
-/* Payment Section */
 .payment-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 60px 0;
@@ -29,7 +27,6 @@
   font-size: 1.1rem;
 }
 
-/* Payment Container */
 .payment-container {
   background: white;
   border-radius: 25px;
@@ -56,7 +53,6 @@
   50% { background-position: 100% 50%; }
 }
 
-/* Payment Methods */
 .payment-methods {
   margin-bottom: 2rem;
 }
@@ -126,7 +122,6 @@
   accent-color: #4a90e2;
 }
 
-/* Payment Form */
 .payment-form {
   background: #f8f9fa;
   border-radius: 20px;
@@ -153,7 +148,6 @@
   opacity: 1;
 }
 
-/* Form Controls */
 .form-control,
 .form-select {
   border: 2px solid #e9ecef;
@@ -177,7 +171,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* Card Input Styling */
 .card-input {
   position: relative;
 }
@@ -196,7 +189,6 @@
   z-index: 10;
 }
 
-/* Form Groups */
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -212,7 +204,6 @@
   min-width: 200px;
 }
 
-/* Security Features */
 .security-features {
   background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
   border: 1px solid #c3e6cb;
@@ -245,7 +236,6 @@
   font-size: 0.9rem;
 }
 
-/* Submit Button */
 .btn-pay {
   background: linear-gradient(135deg, #28a745, #20c997);
   border: none;
@@ -268,7 +258,6 @@
   transform: translateY(-1px);
 }
 
-/* Payment Summary */
 .payment-summary {
   background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
   border: 2px solid #4a90e2;
@@ -308,7 +297,6 @@
   font-weight: 500;
 }
 
-/* Progress Steps */
 .payment-progress {
   display: flex;
   justify-content: center;
@@ -382,7 +370,6 @@
   font-size: 1.1rem;
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
   .payment-container {
     padding: 2rem;

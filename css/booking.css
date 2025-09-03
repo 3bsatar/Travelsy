@@ -1,7 +1,5 @@
-/* Booking Page Specific Styles */
 @import url('./base.css');
 
-/* Booking Section */
 .booking-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 60px 0;
@@ -26,7 +24,6 @@
   font-size: 1.1rem;
 }
 
-/* Booking Form Container */
 .booking-form-container {
   background: white;
   border-radius: 25px;
@@ -67,7 +64,7 @@
   margin-bottom: 2rem;
 }
 
-/* Feature Items */
+
 .booking-features {
   margin-bottom: 2rem;
 }
@@ -118,7 +115,7 @@
   line-height: 1.4;
 }
 
-/* Booking Form Card */
+
 .booking-form-card {
   background: #f8f9fa;
   border-radius: 20px;
@@ -145,7 +142,7 @@
   opacity: 1;
 }
 
-/* Form Controls */
+
 .form-control,
 .form-select {
   border: 2px solid #e9ecef;
@@ -169,7 +166,7 @@
   margin-bottom: 0.5rem;
 }
 
-/* Form Groups */
+
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -185,7 +182,7 @@
   min-width: 200px;
 }
 
-/* Submit Button */
+
 .btn-submit {
   background: linear-gradient(135deg, #4a90e2, #357abd);
   border: none;
@@ -208,7 +205,7 @@
   transform: translateY(-1px);
 }
 
-/* Booking Summary */
+
 .booking-summary {
   background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
   border: 2px solid #4a90e2;
@@ -248,7 +245,7 @@
   font-weight: 500;
 }
 
-/* Progress Steps */
+
 .booking-progress {
   display: flex;
   justify-content: center;
@@ -300,7 +297,7 @@
   color: #28a745;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
   .booking-form-info {
     padding-right: 2rem;
