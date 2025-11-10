@@ -7,7 +7,7 @@
 ![Static](https://img.shields.io/badge/Website-Static-lightgrey?logo=google-chrome)
 
 A **responsive travel website** built using **HTML, CSS, and Bootstrap**.  
-**Travelsy** helps users explore and learn about **hotels in Egypt’s coastal cities**, including **Hurghada, Sharm El Sheikh, and Dahab**, offering a modern, elegant, and mobile-friendly design to inspire travelers.
+**Travelsy** helps users explore and learn about **hotels in Egypt’s coastal cities**, including **Hurghada, Sharm El Sheikh, New Alamin, and Dahab** offering a modern, elegant, and mobile-friendly design to inspire travelers.
 
 ## 🛠 Tech Stack
 - **HTML5** — Page structure and semantic content  
@@ -15,6 +15,16 @@ A **responsive travel website** built using **HTML, CSS, and Bootstrap**.
 - **Bootstrap 5** — Responsive and grid-based layout  
 - **Font Awesome** — Iconography for UI elements  
 - **Google Fonts** — Modern and readable typography  
+
+
+## 🖼 Project Snapshots
+
+Here are some visuals from the website in action:
+
+| Home Page | About Page | Cities Page |
+|------------|-------------|--------------|
+| ![Home Page](https://github.com/3bsatar/Travelsy/blob/master/images/Home.png?raw=true) | ![About Page](https://github.com/3bsatar/Travelsy/blob/master/images/About.png?raw=true) | ![Cities Page](https://github.com/3bsatar/Travelsy/blob/master/images/Cities.png?raw=true) |
+
 
 ## 📁 Project Structure
 
@@ -65,6 +75,7 @@ A **responsive travel website** built using **HTML, CSS, and Bootstrap**.
   - Smooth navigation bar with scroll behavior
   - Card-based hotel listings with hover animations
   - Google Fonts for clean, modern typography
+
 
   ## 📝 Notes
   - No backend required — static and lightweight.
